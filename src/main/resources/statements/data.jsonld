@@ -1,0 +1,24 @@
+[
+    {
+         "@context" : "http://models.ai4bd.org/jsonld/edm-context.jsonld",
+         "@id" : "http://ai4bd.com/resource/data/collection/60adf724-16fc-4337-950b-7308a089a81c",
+         "@type" : "edm:Collection",
+         "title" : "Archive",
+         "itemType" : "edm:Document",
+         "annotationToUse" : [
+
+         ],
+         "dateCreated" : "2023-03-13T13:28:23.012Z"
+    },
+    {
+       "@context" : "http://models.ai4bd.org/jsonld/edm-context.jsonld",
+       "@id" : "http://ai4bd.com/resource/data/collection/b7ae0067-4c18-4b40-8257-01fd925ce95c",
+       "@type" : "edm:Collection",
+       "itemType" : "edm:Document",
+       "title" : "Inbox (REST-based) - Archive (2020/10/02)",
+       "dateCreated" : "2020-05-03T21:39:18.223Z",
+       "parent" : {
+        "@id": "http://ai4bd.com/resource/data/collection/60adf724-16fc-4337-950b-7308a089a81c"
+       }
+   }
+]

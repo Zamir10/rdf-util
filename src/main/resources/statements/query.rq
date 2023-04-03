@@ -1,0 +1,6 @@
+PREFIX edm: <http://ai4bd.com/resource/edm/>
+SELECT *
+WHERE {
+    ?d edm:parent ?f .
+    ?f edm:title ?e .
+}
